@@ -2,4 +2,7 @@ module github.com/at-wat/renovate-repro-go-github-major-not-updated
 
 go 1.18
 
-require github.com/go-chi/chi/v4 v4.0.0-rc1
+require (
+	github.com/go-chi/chi/v4 v4.0.0-rc1
+	github.com/go-chi/chi/v5 v5.0.7
+)
